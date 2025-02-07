@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "playing-cards:build:production"
+              "buildTarget": "playing-cards:build:production"
             },
             "development": {
-              "browserTarget": "playing-cards:build:development"
+              "buildTarget": "playing-cards:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "playing-cards:build"
+            "buildTarget": "playing-cards:build"
           }
         },
         "test": {
